@@ -9,6 +9,15 @@
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
+    .nav-btn{
+        outline: none;
+        display: none;
+        cursor: pointer;
+        border: none;
+        background: transparent;
+        font-size: 20px;
+        padding: 5px;
+    }
 }
 .pages{
     display: flex;
@@ -38,4 +47,36 @@
     width: 160px;
     height: 60px;
     object-fit: cover;
+}
+@media screen and (max-width:760px) {
+    .navbar{
+        .nav-btn{
+            display: block;
+            color: #B923E1;
+        }
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 1s;
+        transform: translateY(-100%);
+        background-color: red;
+    }
+    .nav-close-btn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+    .responsive_nav{
+        transform: none;
+    }
+    .contactBtn{
+        display: none;
+    }
 }
