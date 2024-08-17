@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Matemasie&family=Nosifer&family=Outfit:wght@100..900&display=swap');
+
+.Me {
+    width: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    transition: 0.3s ease-in-out;
+}
+
+.Me:hover {
+    box-shadow: 0 0 25px var(--main-color),
+        0 0 50px var(--main-color),
+        0 0 100px var(--main-color);
+}
+
+.btn-group a {
+    color: var(--main-color);
+    font-size: 20px;
+}
+
+.btn-group {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--main-color);
+    box-shadow: 0 0 25px transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-group:hover {
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
+    transform: scale(1.1);
+    box-shadow: 0 0 25px var(--main-color),
+        0 0 50px var(--main-color),
+        0 0 80px var(--main-color);
+
+    a {
+        color: white;
+    }
+}
+
+.icon-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.MeBox {
+    display: flex;
+    padding: 50px 100px;
+    gap: 100px;
+    h1 {
+        color: var(--main-color);
+        font-family: "Nosifer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        transition: 0.5s ease;
+    }
+    h1:hover{
+        color:white;
+    }
+}

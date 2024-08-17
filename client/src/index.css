@@ -5,3 +5,13 @@
   list-style: none; 
   text-decoration: none;
 }
+:root{
+  --bg-color:black;
+  --main-color:orangered;
+}
+body{
+  width: 100%;
+  margin: auto;
+  background: var(--bg-color);
+  color: white;
+}

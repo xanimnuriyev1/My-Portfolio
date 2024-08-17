@@ -32,10 +32,7 @@ const showNav=()=>{
         </ul>
     </nav>
    </div>
-   <div>
-    <button className='contactBtn'>contact with me</button>
-   </div>
-   <div>
+   <div className='nav-btn-box'>
     <button className='nav-btn nav-close-btn' onClick={showNav}>
     <FiAlignRight />
     </button>
