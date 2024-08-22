@@ -47,15 +47,21 @@
 .StarLogo:hover{
   transform: scale(1.1);
 }
-@media screen and (max-width:670px) {
+@media screen and (max-width:600px) {
     .navbar{
+    padding: 20px 50px;
         .nav-btn{
             display: block;
-            color: #B923E1;
+            color: var(--main-color);
+            font-size: 20px;
         }
         .nav-btn-box{
             display: block;
         }
+    }
+    .StarLogo{
+        width: 120px;
+        height: 50px;
     }
     nav{
         position: fixed;
@@ -68,7 +74,7 @@
         justify-content: center;
         transition: 1s;
         transform: translateY(-100%);
-        background-color: red;
+        background-color: rgb(5, 1, 44);
     }
     .nav-close-btn{
         position: absolute;

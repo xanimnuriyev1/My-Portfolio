@@ -7,7 +7,7 @@
 }
 :root{
   --bg-color:black;
-  --main-color:orangered;
+  --main-color:rgb(0, 217, 255);
 }
 body{
   width: 100%;

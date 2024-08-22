@@ -10,7 +10,6 @@ const About = () => {
       </div>
       <div>
      <h1 className='about-head'>About Me</h1>
-     {/* <p className='About-text'>I am 21 year old. I am a young programming developer enthusiast. <br /> Therefore ,I am constantly learning and developing software.</p> */}
      <div className="about-skills">
       <div className="about-skill">
         <p>HTML & CSS</p>
